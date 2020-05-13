@@ -1,0 +1,32 @@
+{
+  "name": "brunokoppel.com",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoKoppel/brunokoppel.com.git"
+  },
+  "author": "Bruno Koppel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrunoKoppel/brunokoppel.com/issues"
+  },
+  "homepage": "https://github.com/BrunoKoppel/brunokoppel.com#readme"
+}

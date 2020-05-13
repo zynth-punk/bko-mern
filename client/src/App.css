@@ -5,7 +5,7 @@
   text-align: center;
   font-family: 'Helvetica Neue';
   
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.85) 100%), url("./images/background.png");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.85) 100%), url("./images/background-low-quality.jpg");
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,14 +14,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border: 5px;
+	border-style: solid;
+	border-color: rgb(190, 190, 190);
+	border-radius: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    border: 5px;
-		border-style: solid;
-		border-color: rgb(190, 190, 190);
-		border-radius: 20px;
+    
   }
 }
 
@@ -38,28 +39,15 @@
 }
 
 .Bruno-Name {
-  background-color: #090e16;
-  font-size: 6vw;
+  font-size: 4vw;
   margin: 7px;
-  border: 5px;
-  border-width: auto + 4px;
-  border-style: solid;
-	border-radius: 8px;
-	border-color: rgb(190, 190, 190);
-	border-bottom-width: 7px;
 }
 
 .Bruno-Description {
-  background-color: #090e16;
-  font-size: 4vw;
+  
+  font-size: 3vw;
   margin-top: -2px;
   margin: 6px;
-  border: 3px;
-  border-width: auto + 4px;
-  border-style: solid;
-	border-radius: 8px;
-	border-color: rgb(190, 190, 190);
-	border-bottom-width: 3px;
 }
 
 .App-single-button-link{
