@@ -39,7 +39,7 @@
 
 .Bruno-Name {
   background-color: #090e16;
-  font-size: 3vw;
+  font-size: 6vw;
   margin: 7px;
   border: 5px;
   border-width: auto + 4px;
@@ -51,7 +51,7 @@
 
 .Bruno-Description {
   background-color: #090e16;
-  font-size: 2vw;
+  font-size: 4vw;
   margin-top: -2px;
   margin: 6px;
   border: 3px;
