@@ -5,7 +5,7 @@
   text-align: center;
   font-family: 'Helvetica Neue';
   
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.85) 100%), url("./images/background-low-quality.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,1) 100%), url("./images/background-low-quality.jpg");
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@
 .App-header {
   
   min-height: 100vh;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
