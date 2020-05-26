@@ -27,6 +27,9 @@ app.use(bodyParser.json());
 
 app.use('/api', routes);
 
+app.use(express.static(__dirname, { dotfiles: 'allow' } ));
+
+
 app.use((err, req, res, next) => {
     console.log(err);
     next();
