@@ -16,12 +16,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "pm2": "^4.2.3",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "3.10.3"
   },
   "devDependencies": {
     "bootstrap": "^4.5.0",
     "webpack": "^4.42.0",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "3.10.3"
   },
   "scripts": {
     "start": "react-scripts start",
