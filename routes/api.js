@@ -1,5 +1,6 @@
 const express = require ('express');
 const router = express.Router();
+/*
 const Todo = require('../models/todo');
 
 
@@ -33,5 +34,6 @@ router.delete('/todos/:id', (req, res, next) => {
         .then(data => res.json(data))
         .catch(next)
 })
+*/
 
 module.exports = router;
