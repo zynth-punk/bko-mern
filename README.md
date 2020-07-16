@@ -1,18 +1,18 @@
 Bruno Koppel / Blog / Personal Router
 
-### npm run dev
 to get the program started
+> npm run dev
 
-Set up of the program:
-<Front End>
+
+### Front End
 > React
 > Apollo
 > GraphQL
 
-<Database>
+### Database
 > MongoDB
 > Mongoose
 
-<Backend>
+### Backend
 > Express
 > Node
