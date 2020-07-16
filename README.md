@@ -5,14 +5,14 @@ to get the program started
 
 
 ### Front End
-> React
-> Apollo
-> GraphQL
+- React
+- Apollo
+- GraphQL
 
 ### Database
-> MongoDB
-> Mongoose
+- MongoDB
+- Mongoose
 
 ### Backend
-> Express
-> Node
+- Express
+- Node
