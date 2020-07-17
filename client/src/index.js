@@ -9,11 +9,9 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <div>
         <Route exact path='/blog' component={blog} />
-      </div>
     </Router>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
