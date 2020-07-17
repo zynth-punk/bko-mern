@@ -29,10 +29,10 @@ function App() {
         
 				
         <div className="App-button-link">
-          <Button className="App-single-button-link" size="lg" variant="dark" href="https://github.com/BrunoKoppel">Github</Button>
-          <Button className="App-single-button-link" size="lg" variant="dark" href="https://www.linkedin.com/in/bruno-koppel">LinkedIn</Button>
-          <Button className="App-single-button-link" size="lg" variant="dark" href="https://open.spotify.com/artist/5XK2KlEZ95yiEOqE8BcbgE?si=O6LJDkVWTc-bZ6QWzuuuGA">Spotify</Button>
-          <Button className="App-single-button-link" size="lg" variant="dark" href="https://www.instagram.com/bruno_koppel/">Instagram</Button>
+          <Button className="App-single-button-link" size="md" variant="dark" href="https://github.com/BrunoKoppel">Github</Button>
+          <Button className="App-single-button-link" size="md" variant="dark" href="https://www.linkedin.com/in/bruno-koppel">LinkedIn</Button>
+          <Button className="App-single-button-link" size="md" variant="dark" href="https://open.spotify.com/artist/5XK2KlEZ95yiEOqE8BcbgE?si=O6LJDkVWTc-bZ6QWzuuuGA">Spotify</Button>
+          <Button className="App-single-button-link" size="md" variant="dark" href="https://www.instagram.com/bruno_koppel/">Instagram</Button>
         </div>
 
       </header>

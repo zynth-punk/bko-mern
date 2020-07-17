@@ -39,13 +39,13 @@
 }
 
 .Bruno-Name {
-  font-size: 4vw;
+  font-size: 2.5vmax;
   margin: 7px;
 }
 
 .Bruno-Description {
   
-  font-size: 3vw;
+  font-size: 1.5vmax;
   margin-top: -2px;
   margin: 6px;
 }
