@@ -6,7 +6,7 @@ import './index.css';
 import App from './App';
 import blog from './subpages/blog'
 import * as serviceWorker from './serviceWorker';
-import Brunokoppel2 from './images/brunokoppel2.jpg';
+import Brunokoppel2 from './images/DSC_0314.JPG';
 import BG from './images/background.jpg';
 import GH from './images/GH.png'
 import LI from './images/LinkedInBnW.png'
@@ -21,7 +21,7 @@ ReactDOM.render(
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/">
         <Button size="sm" variant="light">
-          <h3 style={{padding: "0.4vmin",margin: "0.2vmin" , color: "#000000", fontSize: "5vmin", fontFamily: "Monaco"}}>Bruno Köppel</h3>
+          <h3 style={{padding: "0.4vmin", marginLeft: "-2vmin", marginRight: "-2vmin", marginTop: "0.2vmin" , marginBottom: "0.2vmin" , color: "#000000", fontSize: "5vmin", fontFamily: "Monaco"}}>Bruno Köppel</h3>
         </Button>
       </Navbar.Brand>
       <Nav className="mr-auto" style={{display: "flex", flexDirection: "row"}}>
