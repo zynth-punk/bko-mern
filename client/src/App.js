@@ -25,7 +25,7 @@ function App() {
               </div>
             </Col>
             <Col sm={7} className="bg-light" style={{margin: "0.5vmin", padding: "2vmin"}}>
-            <iframe style={{margin: "10px"}} src="https://open.spotify.com/embed/album/2nVwxvBHJ2trq8sFdHykp0" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe style={{margin: "10px"}} src="https://open.spotify.com/embed/album/2nVwxvBHJ2trq8sFdHykp0" width="360" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             <div style={{fontFamily: "futura", margin: "2vmin", textAlign: "justify", textJustify: "auto"}}>
               I wanted to release an album with different styles that showcases different stories. I couln't set my my on a specific genre because I don't believe in them: Music is just sounds happening in a sequence of time.<br></br><br></br> 
               <b>My favorite songs are:
