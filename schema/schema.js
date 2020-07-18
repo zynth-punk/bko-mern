@@ -4,10 +4,7 @@ const Post = require('../models/posts')
 
 const {GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLList} = graphql;
 
-var posts = [
-    { title: 'Introduction', content: 'Hello my name is Bruno', date: '16th of July of 2020', id: '1'},
-    { tilte: 'Resolving', content: 'Time will resolve all of our problems', date: '15th of July of 2020', id: '2'}
-]
+
 const BlogType = new GraphQLObjectType({
     name:'Post',
     fields: () => ({

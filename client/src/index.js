@@ -21,7 +21,8 @@ ReactDOM.render(
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/">
         <Button size="sm" variant="light">
-          <h3 style={{padding: "0.4vmin", marginLeft: "-2vmin", marginRight: "-2vmin", marginTop: "0.2vmin" , marginBottom: "0.2vmin" , color: "#000000", fontSize: "5vmin", fontFamily: "Monaco"}}>Bruno Köppel</h3>
+          <h3 style={{padding: "0.4vmin", marginLeft: "-1vmin", marginRight: "-1vmin", marginTop: "0.2vmin" , marginBottom: "0.2vmin" , color: "#000000", fontSize: "5vmin", fontFamily: "futura"}}>
+            Bruno Köppel</h3>
         </Button>
       </Navbar.Brand>
       <Nav className="mr-auto" style={{display: "flex", flexDirection: "row"}}>
