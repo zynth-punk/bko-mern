@@ -1,27 +1,26 @@
 const express = require ('express');
 const router = express.Router();
+
+const Post = require('../models/postsModel');
+
 /*
-const Todo = require('../models/todo');
-
-
-
-router.get('/todos', (req, res, next) => {
-    Todo.find({}, 'action')
-        .then(data => res.json(data))
+router.get('/posts', (req, res, next) => {
+    Post.find({}, 'post')
+        .then(res => res.json(Post))
+        .catch(next)
+});
+*/
+router.get('/posts/:id', (req, res, next) => {
+    Post.find({"_id": req.params.id})
+        .then(res => res.json(Post))
         .catch(next)
 });
 
-router.get('/todos/:id', (req, res, next) => {
-    Todo.find({"_id": req.params.id})
-        .then(data => res.json(data))
-        .catch(next)
-});
-
-router.post('/todos', (req, res, next) => {
-    if(req.body.action){
-        Todo.create(req.body)
-            .then(data => res.json(data))
-            .catch(next)
+router.post('/posts', (req, res, next) => {
+    if(req.body){
+        const post = new Post(req.body);
+        res.json(post);
+        //Post.create(req.body).then((req) => req.json(Post)).catch(next)
     } else {
         res.json({
             error: "The input field is empty"
@@ -29,11 +28,11 @@ router.post('/todos', (req, res, next) => {
     }
 });
 
-router.delete('/todos/:id', (req, res, next) => {
-    Todo.findOneAndDelete({"_id": req.params.id})
+router.delete('/posts/:id', (req, res, next) => {
+    Post.findOneAndDelete({"_id": req.params.id})
         .then(data => res.json(data))
         .catch(next)
 })
-*/
+
 
 module.exports = router;

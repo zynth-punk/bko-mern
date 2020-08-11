@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Image, Navbar, Nav, Button } from 'react-bootstrap'
+
 import './index.css';
 import App from './App';
-import blog from './subpages/blog'
 import * as serviceWorker from './serviceWorker';
+
+
 import Brunokoppel2 from './images/DSC_0314.JPG';
 import BG from './images/background.jpg';
 import GH from './images/GH.png'
@@ -15,14 +17,14 @@ import IG from './images/IG-BnW.png'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    {/* <Router>
         <Route exact path='/blog' component={blog} />
-    </Router>
+    </Router> */}
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/">
         <Button size="sm" variant="light">
           <h3 style={{padding: "0.4vmin", marginLeft: "-1vmin", marginRight: "-1vmin", marginTop: "0.2vmin" , marginBottom: "0.2vmin" , color: "#000000", fontSize: "5vmin", fontFamily: "futura"}}>
-            Bruno Köppel</h3>
+            BKö</h3>
         </Button>
       </Navbar.Brand>
       <Nav className="mr-auto" style={{display: "flex", flexDirection: "row"}}>

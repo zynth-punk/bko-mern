@@ -1,12 +1,12 @@
 const graphql = require ('graphql');
 const _ = require ('lodash');
-const Post = require('../models/posts')
+const Post = require('../models/postsModel')
 
 const {GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLList} = graphql;
 
 
 const BlogType = new GraphQLObjectType({
-    name:'Post',
+    name:'post',
     fields: () => ({
         id: {type: GraphQLID},
         title: {type: GraphQLString},

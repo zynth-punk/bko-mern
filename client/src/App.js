@@ -1,36 +1,35 @@
-import ApolloClient from 'apollo-boost';
-import { ApolloProvider } from 'react-apollo';
-
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from 'react-apollo';
 //import PostBlock from './components/PostBlock';
+
+import BlogBlock from './components/BlogBlock';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+
 
 const client = new ApolloClient({
   uri: 'http://localhost:5000/graphql',
 })
+
 function App() {
   return (
     <div>
       <ApolloProvider client={client}>
-        <Container style={{padding: "5vmin"}} fluid>
-          <Row style={{ display: "flex", flexDirection: "row"}}>
-            <Col sm={4} className="bg-dark" style={{margin: "0.5vmin", padding: "2vmin"}}>
-              <div style={{fontFamily: "futura", fontSize: "20px" , color: "#FFFFFF" ,textAlign: "justify", textJustify: "auto"}} >
-                <h2>Programmers and Musicians</h2>
-                <span>
-                  Hi! My name is Bruno Köppel. I began my coding journey when I was 14 years old. I began with C language. Around the same age I grew interested in music and began mixing and experimenting with synthesizers and samples. I found music production to be a rewarding pursuit, one that still drives me.
-                </span>
+        <Container style={{fontFamily: "futura", display:"flex", padding: "5vmin", justifyContent:"center"}} fluid>
+          <Row style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+            <Col sm={12} md={12} lg={4} xl={3} className="bg-dark" style={{margin: "1vmin", padding: "2vmin"}}>
+              <div style={{fontSize: "20px" , color: "#FFFFFF"}} >
+                <h2>Bruno Köppel</h2>
+                <li> Computer Scientist</li>
+                <li>Music Producer</li>
+                <li>Philosopher</li>
+                <li>Human or am I?</li>
               </div>
             </Col>
-            <Col sm={7} className="bg-light" style={{margin: "0.5vmin", padding: "2vmin"}}>
-            <iframe title="Bruno Koppel" style={{margin: "10px"}} src="https://open.spotify.com/embed/album/2nVwxvBHJ2trq8sFdHykp0" width="310" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <div style={{fontFamily: "futura", margin: "2vmin", textAlign: "justify", textJustify: "auto"}}>
-              I wanted to release an album with different styles that showcases different stories. I couln't set my my on a specific genre because I don't believe in them: Music is just sounds happening in a sequence of time.<br></br><br></br> 
-              <b>My favorite songs are:
-                <li>Butterfly Effect</li>
-                <li>Seen the Truth With My Third Eye</li></b> <br></br>
-            </div>
+            <Col sm={12} md={12} lg={7} xl={8} className="bg-light" style={{margin: "0.5vmin", padding: "2vmin"}}>
+              <BlogBlock/>
             </Col>
           </Row>
         </Container>
@@ -40,9 +39,6 @@ function App() {
         <footer style={{fontFamily: "futura", padding: "5vmin"}}>
           <p>Author: Bruno Köppel @2020</p>
         </footer>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </div>
   );
 }
