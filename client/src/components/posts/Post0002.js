@@ -1,8 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import {Container, Col, Row} from 'react-bootstrap';
-import ApolloClient from 'apollo-boost';
-import { ApolloProvider } from 'react-apollo';
+import {Container, Row} from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,7 +8,7 @@ function Post0002() {
   return (
       <Container style={{marginBottom: "15vmin"}}>
         <Row style={{ display: "flex", alignItems: "baseline"}}><h6>August 11th 2020</h6></Row>
-        <Row><h1><span id="PostHeader"><a href="/posts/0002">A Path Towards Nothingness</a></span></h1></Row>
+        <Row><h1><span id="PostHeader">A Path Towards Nothingness</span></h1></Row>
         <Row>
           <div style={{margin: "2vmin"}}> 
             <p>

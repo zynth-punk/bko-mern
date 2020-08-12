@@ -1,7 +1,4 @@
 import React from 'react';
-import {Container, Col, Row} from 'react-bootstrap';
-import ApolloClient from 'apollo-boost';
-import { ApolloProvider } from 'react-apollo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
