@@ -17,7 +17,11 @@ function Post0002() {
               What is this place and what does it all hold?. What's beyond atoms? What make up atoms and why did we even get atoms? Why didn't we get something else?
             </p>
             <p>
-              Pondering about these questions brings a uncomfortable feeling of euphoria, but why? Why does considering the very nature of my body and my world around me, sends the body spiriling into anxiety?
+              Pondering about these questions brings a uncomfortable feeling of euphoria, but why? Why does considering the very nature of the universe and what makes it up, sends the body spiriling into a feeling of uncomfortable mystery?
+            </p>
+            <p>
+              I've began to notice that this is the mind understanding that it's reaching the boundaries of what it can explain. 
+              Whatever makes up the Atoms or whatver bigger construct is there to life somehow it's one of those questions still not answered by our current understanding of the universe.
             </p>
           </div>
         </Row>
