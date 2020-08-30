@@ -38,7 +38,7 @@ function App() {
               lg={4}
               xl={3}
               className="bg-dark"
-              style={{ margin: "1vmin", padding: "2vmin" }}
+              style={{ margin: "1vmin", padding: "2vmin", borderRadius: "20px" }}
             >
               <div style={{ fontSize: "20px", color: "#FFFFFF" }}>
                 <h2>Bruno Köppel</h2>
@@ -51,7 +51,7 @@ function App() {
               lg={7}
               xl={8}
               className="bg-light"
-              style={{ margin: "0.5vmin", padding: "2vmin" }}
+              style={{ margin: "0.5vmin", padding: "2vmin", borderRadius: "20px"}}
             >
               <BlogBlock />
             </Col>
