@@ -1,84 +1,9 @@
+#PostHeader {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 1vmin;
+  border-collapse: separate;
+  border-spacing: 1vmin;
 
-
-.App {
-  background-color: #090e16;
-  text-align: center;
-  font-family: 'Helvetica Neue';
-  
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,1) 100%), url("./images/background-low-quality.jpg");
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  border: 5px;
-	border-style: solid;
-	border-color: rgb(190, 190, 190);
-	border-radius: 20px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    
-  }
-}
-
-.App-header {
-  
-  min-height: 100vh;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  
-}
-
-.Bruno-Name {
-  font-size: 2.5vmax;
-  margin: 7px;
-}
-
-.Bruno-Description {
-  
-  font-size: 1.5vmax;
-  margin-top: -2px;
-  margin: 6px;
-}
-
-.App-single-button-link{
-  margin: 4px;
-}
-
-.App-button-link {
-  background-color: #090e16;
-  float: right;
-  color: #2fa2c2;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-button-link:hover {
-  color: #9ec9d4
-}
-
-.App-link {
-  font-size: calc(10px + 2vmin);
-  color: #2fa2c2;
-}
-
-.App-link:hover {
-  color: #9ec9d4
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(-90deg);
-  }
-  to {
-    transform: rotate(90deg);
-  }
 }

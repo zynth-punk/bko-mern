@@ -1,48 +1,68 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-//import Brunokoppel1 from './images/brunokoppel1.JPG';
-import Brunokoppel2 from './images/brunokoppel2.jpg';
-//import BG from './images/background.png';
+import React from "react";
+import { Container, Col, Row } from "react-bootstrap";
+import ApolloClient from "apollo-boost";
+import { ApolloProvider } from "react-apollo";
+//import PostBlock from './components/PostBlock';
 
-import './App.css';
+import BlogBlock from "./components/BlogBlock";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+const client = new ApolloClient({
+  uri: "http://localhost:5000/graphql",
+});
 
 function App() {
   return (
-    
+    <div>
+      <ApolloProvider client={client}>
+        <Container
+          style={{
+            fontFamily: "futura",
+            display: "flex",
+            padding: "5vmin",
+            justifyContent: "center",
+          }}
+          fluid
+        >
+          <Row
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "flex-start",
+            }}
+          >
+            <Col
+              sm={12}
+              md={12}
+              lg={4}
+              xl={3}
+              className="bg-dark"
+              style={{ margin: "1vmin", padding: "2vmin", borderRadius: "20px" }}
+            >
+              <div style={{ fontSize: "20px", color: "#FFFFFF" }}>
+                <h2>Bruno Köppel</h2>
+                <li>Curiosity got us here.</li>
+              </div>
+            </Col>
+            <Col
+              sm={12}
+              md={12}
+              lg={7}
+              xl={8}
+              className="bg-light"
+              style={{ margin: "0.5vmin", padding: "2vmin", borderRadius: "20px"}}
+            >
+              <BlogBlock />
+            </Col>
+          </Row>
+        </Container>
+      </ApolloProvider>
 
-    <div className="App">
-
-     
-      <header className="App-header">
-        <img src={Brunokoppel2} className="App-logo" alt="logo" />
-        <div class="container">
-
-          <h1 className="Bruno-Name">
-            Bruno Köppel-Rodriguez
-          </h1>
-          <h2 className="Bruno-Description">
-            Programmer, Tinkerer, and Musician
-          </h2>
-
-        </div>
-        
-				
-        <div className="App-button-link">
-          <Button className="App-single-button-link" size="md" variant="dark" href="https://github.com/BrunoKoppel">Github</Button>
-          <Button className="App-single-button-link" size="md" variant="dark" href="https://www.linkedin.com/in/bruno-koppel">LinkedIn</Button>
-          <Button className="App-single-button-link" size="md" variant="dark" href="https://open.spotify.com/artist/5XK2KlEZ95yiEOqE8BcbgE?si=O6LJDkVWTc-bZ6QWzuuuGA">Spotify</Button>
-          <Button className="App-single-button-link" size="md" variant="dark" href="https://www.instagram.com/bruno_koppel/">Instagram</Button>
-        </div>
-
-      </header>
-
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+      <footer style={{ fontFamily: "futura", padding: "5vmin" }}>
+        <p>Author: Bruno Köppel @2020</p>
+      </footer>
     </div>
-    
   );
 }
 
