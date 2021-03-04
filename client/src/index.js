@@ -6,7 +6,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-import Brunokoppel2 from "./images/DSC_0314.JPG";
+import Brunokoppel2 from "./images/DSC_0004.jpg";
 import BG from "./images/background.jpg";
 import GH from "./images/GH.png";
 import LI from "./images/LinkedInBnW.png";
@@ -30,10 +30,10 @@ ReactDOM.render(
               marginBottom: "0.2vmin",
               color: "#000000",
               fontSize: "5vmin",
-              fontFamily: "futura",
+              fontFamily: "ubuntu",
             }}
           >
-            BKö
+            bkö
           </h3>
         </Button>
       </Navbar.Brand>
@@ -86,7 +86,7 @@ ReactDOM.render(
           </Button>
         </Nav.Link>
 
-        <Nav.Link
+        {/* <Nav.Link
           style={{ margin: "0.2vmin" }}
           href="https://www.instagram.com/bruno_koppel/"
         >
@@ -99,7 +99,7 @@ ReactDOM.render(
               fluid
             />
           </Button>
-        </Nav.Link>
+        </Nav.Link> */}
 
         <Nav.Link
           style={{ margin: "0.2vmin", right: "2vmin", position: "absolute" }}
