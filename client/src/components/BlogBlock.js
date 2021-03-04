@@ -9,8 +9,8 @@ import Post0003 from "./posts/Post0003";
 function BlogBlock() {
   return (
     <>
-      {/* <Post0003 />
-      <Post0002 /> */}
+      {/* <Post0003 />*/}
+      <Post0002 /> 
       <Post0001 />
     </>
   );

@@ -18,7 +18,7 @@ function App() {
       <ApolloProvider client={client}>
         <Container
           style={{
-            fontFamily: "futura",
+            fontFamily: "ubuntu",
             display: "flex",
             padding: "5vmin",
             justifyContent: "center",
@@ -42,7 +42,8 @@ function App() {
             >
               <div style={{ fontSize: "20px", color: "#FFFFFF" }}>
                 <h2>Bruno Köppel</h2>
-                <li>Curiosity got us here.</li>
+                <p>Installation in progress</p>
+                <p>[|................................] 1% </p>
               </div>
             </Col>
             <Col
@@ -59,8 +60,8 @@ function App() {
         </Container>
       </ApolloProvider>
 
-      <footer style={{ fontFamily: "futura", padding: "5vmin" }}>
-        <p>Author: Bruno Köppel @2020</p>
+      <footer style={{ fontFamily: "ubuntu", padding: "5vmin" }}>
+        <p>Author: Bruno Köppel @2021</p>
       </footer>
     </div>
   );
