@@ -16,10 +16,7 @@ function Post0002() {
       <div style={{margin: "2vmin"}}> 
         <b>What sort of noisy and angry music are people going to be listening to in 20 to 50 years from now?</b> What sort of noises will people be headbanging and jumping to?<br></br>
         The Punk attitude is the energy to rebel, to break away from the system that has us contained in a bucket. This album is a vision of the future, to cast that energy into our world and perceive it. 
-        
-        
         I struggled mixing the bass of the kick with the overhelming low humming bass of the synths in the back but I loved it. However those guitar riffs where fun.
-
         Also that siren, I <b>loved</b> it, it reminds me of the future. The Uncertainty of what's to come, the tension and drive to survive beyond other lives.
       </div>
     </Row>
