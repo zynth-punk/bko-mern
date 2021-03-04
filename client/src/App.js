@@ -18,7 +18,7 @@ function App() {
       <ApolloProvider client={client}>
         <Container
           style={{
-            fontFamily: "ubuntu",
+            fontFamily: "Sans",
             display: "flex",
             padding: "5vmin",
             justifyContent: "center",
@@ -60,7 +60,7 @@ function App() {
         </Container>
       </ApolloProvider>
 
-      <footer style={{ fontFamily: "ubuntu", padding: "5vmin" }}>
+      <footer style={{ fontFamily: "Sans", padding: "5vmin" }}>
         <p>Author: Bruno Köppel @2021</p>
       </footer>
     </div>
