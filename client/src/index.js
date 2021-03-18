@@ -8,9 +8,9 @@ import * as serviceWorker from "./serviceWorker";
 
 import Brunokoppel2 from "./images/DSC_0004.jpg";
 import BG from "./images/background.jpg";
-import GH from "./images/GH.png";
-import LI from "./images/LinkedInBnW.png";
-import SP from "./images/spotifyBnW.png";
+import GH from "./images/GH_W.png";
+import LI from "./images/LinkedInW.png";
+import SP from "./images/spotifyW.png";
 import IG from "./images/IG-BnW.png";
 
 ReactDOM.render(
@@ -18,18 +18,18 @@ ReactDOM.render(
     {/* <Router>
         <Route exact path='/blog' component={blog} />
     </Router> */}
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg">
       <Navbar.Brand href="/">
-        <Button size="sm" variant="light">
+        <Button size="sm" variant="dark">
           <h3
             style={{
               padding: "0.4vmin",
               marginLeft: "-1vmin",
               marginRight: "-1vmin",
-              marginTop: "0.2vmin",
+              marginTop: "0.3vmin",
               marginBottom: "0.2vmin",
-              color: "#000000",
-              fontSize: "5vmin",
+              color: "#ffffff",
+              fontSize: "11vmin",
               fontFamily: "Lato",
             }}
           >
@@ -45,10 +45,10 @@ ReactDOM.render(
           style={{ margin: "0.2vmin" }}
           href="https://github.com/BrunoKoppel"
         >
-          <Button size="sm" variant="light">
+          <Button size="sm" variant="dark">
             <Image
               src={GH}
-              style={{ width: "5vmin" }}
+              style={{ width: "7vmin" }}
               alt="logo"
               rounded
               fluid
@@ -60,10 +60,10 @@ ReactDOM.render(
           style={{ margin: "0.2vmin" }}
           href="https://www.linkedin.com/in/bruno-koppel"
         >
-          <Button size="sm" variant="light">
+          <Button size="sm" variant="dark">
             <Image
               src={LI}
-              style={{ width: "5vmin" }}
+              style={{ width: "7vmin" }}
               alt="logo"
               rounded
               fluid
@@ -73,12 +73,12 @@ ReactDOM.render(
 
         <Nav.Link
           style={{ margin: "0.2vmin" }}
-          href="https://open.spotify.com/artist/5XK2KlEZ95yiEOqE8BcbgE?si=O6LJDkVWTc-bZ6QWzuuuGA"
+          href="https://open.spotify.com/artist/6BdSmIpqVam6MashlNUOoK?si=f8mVigR-TQaATPULzTWL-w"
         >
-          <Button size="sm" variant="light">
+          <Button size="sm" variant="dark">
             <Image
               src={SP}
-              style={{ width: "5vmin" }}
+              style={{ width: "7vmin" }}
               alt="logo"
               rounded
               fluid
@@ -105,10 +105,10 @@ ReactDOM.render(
           style={{ margin: "0.2vmin", right: "2vmin", position: "absolute" }}
           aria-controls="basic-navbar-nav"
         >
-          <Button size="sm" variant="light">
+          <Button size="sm" variant="dark">
             <Image
               src={Brunokoppel2}
-              style={{ width: "5vmin" }}
+              style={{ width: "7vmin" }}
               alt="logo"
               rounded
               fluid
@@ -120,6 +120,7 @@ ReactDOM.render(
     <App
       style={{
         backgroundImage: `url(${BG}))`,
+        color: "#000000",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",

@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Post0002() {
   return (
-    <Container style={{marginBottom: "15vmin"}}>
+    <Container style={{marginBottom: "15vmin", color: "#ffffff"}}>
     <Row style={{ display: "flex", alignItems: "baseline"}}><h6>November 17th 2020</h6></Row>
     <Row><h2 style={{marginRight:"10px", marginBottom: "20px"}}><span><u>2nd EP</u></span></h2></Row>
     <Row><h1><span id="PostHeader">The Net Runner</span></h1></Row>

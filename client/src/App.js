@@ -14,7 +14,10 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <div>
+    <div 
+    style={{
+      backgroundColor: "#343a40"
+    }}>
       <ApolloProvider client={client}>
         <Container
           style={{
@@ -37,13 +40,12 @@ function App() {
               md={12}
               lg={4}
               xl={3}
-              className="bg-dark"
-              style={{ margin: "1vmin", padding: "2vmin", borderRadius: "20px" }}
+              style={{ margin: "1vmin", padding: "2vmin", borderRadius: "20px", backgroundColor: "#2c3135" }}
             >
-              <div style={{ fontSize: "20px", color: "#FFFFFF" }}>
+              <div style={{ fontSize: "20px", color: "#ffffff" }}>
                 <h2>Bruno Köppel</h2>
                 <p>Installation in progress</p>
-                <p>[|................................] 1% </p>
+                <p>[|..............] 1% </p>
               </div>
             </Col>
             <Col
@@ -51,8 +53,7 @@ function App() {
               md={12}
               lg={7}
               xl={8}
-              className="bg-light"
-              style={{ margin: "0.5vmin", padding: "2vmin", borderRadius: "20px"}}
+              style={{ margin: "0.5vmin", padding: "2vmin", borderRadius: "20px", backgroundColor: "#2c3135"}}
             >
               <BlogBlock />
             </Col>
@@ -60,7 +61,7 @@ function App() {
         </Container>
       </ApolloProvider>
 
-      <footer style={{ fontFamily: "Sans", padding: "5vmin" }}>
+      <footer style={{ fontFamily: "Sans", padding: "5vmin", color: "#ffffff" }}>
         <p>Author: Bruno Köppel @2021</p>
       </footer>
     </div>
