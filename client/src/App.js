@@ -21,7 +21,8 @@ function App() {
       <ApolloProvider client={client}>
         <Container
           style={{
-            fontFamily: "Sans",
+            fontFamily: "Courier",
+            fontWeight: "bolder",
             display: "flex",
             padding: "5vmin",
             justifyContent: "center",
@@ -42,7 +43,7 @@ function App() {
               xl={3}
               style={{ margin: "1vmin", padding: "2vmin", borderRadius: "20px", backgroundColor: "#2c3135" }}
             >
-              <div style={{ fontSize: "20px", color: "#ffffff" }}>
+              <div style={{ fontSize: "20px", color: "#ffffff" , fontWeight: "bolder",}}>
                 <h2>Bruno Köppel</h2>
                 <p>Installation in progress</p>
                 <p>[|..............] 1% </p>

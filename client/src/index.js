@@ -30,7 +30,7 @@ ReactDOM.render(
               marginBottom: "0.2vmin",
               color: "#ffffff",
               fontSize: "11vmin",
-              fontFamily: "Lato",
+              fontFamily: "Courier",
             }}
           >
             bkö
